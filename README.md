@@ -13,5 +13,5 @@ Solution for the Social Links Profile challenge on Frontend Mentor.
 - Google Fonts
 
 ## Author
-- GitHub: https://github.com/seu-usuario
+- GitHub: https://github.com/Glaub3rDev
 - Frontend Mentor: https://www.frontendmentor.io/home
