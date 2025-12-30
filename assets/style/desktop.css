@@ -1,0 +1,188 @@
+    @charset "UTF-8";
+    
+    * {
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+      font-family: "Inter", sans-serif;
+    }
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+    :root {
+      --cor001Green: hsl(75, 94%, 57%);
+      --cor002White: hsl(0, 0%, 100%);
+      --cor003Grey: hsl(0, 0%, 20%);
+      --cor004Grey: hsl(0, 0%, 12%);
+      --cor005Grey: hsl(0, 0%, 8%);
+    }
+
+    body {
+        background-color: var(--cor005Grey);
+        padding-top: 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--cor004Grey);
+        color: white;
+        width: 400px;
+        height: 640px;
+        border-radius: 10px;
+    }
+
+    header:hover{
+      box-shadow: 0px 0px 24px 0px hsla(75, 94%, 57%, 0.085);
+      transition: 0.5s ease;
+    }
+
+    .jessica {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .jessica > img {
+      width: 95px;
+      margin: 30px;
+      border-radius: 50%;
+    }
+
+    #section01 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #section01 > h1 {
+      font-weight: bolder;
+      font-size: 1.6em;
+      padding-bottom: 13px;
+    }
+
+    #section01 > h2 {
+      font-size: 0.9em;
+      color: var(--cor001Green);
+    }
+
+    #section01 > h3 {
+      margin-top: 35px;
+      font-size: 0.9em;
+      font-weight: lighter;
+    }
+
+    #section02 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #section02 .GitHub {
+        letter-spacing: 1px;
+        background-color: var(--cor003Grey);
+        color: white;
+        padding: 13px;
+        width: 300px;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        margin: 30px 0px 17px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+    #section02 .FrontendMentor {
+        letter-spacing: 1px;
+        background-color: var(--cor003Grey);
+        color: white;
+        padding: 13px;
+        width: 300px;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        margin-bottom: 17px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+    #section02 .Linkedin {
+        letter-spacing: 1px;
+        background-color: var(--cor003Grey);
+        color: white;
+        padding: 13px;
+        width: 300px;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        margin-bottom: 17px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+    #section02 .Twitter {
+        letter-spacing: 1px;
+        background-color: var(--cor003Grey);
+        color: white;
+        padding: 13px;
+        width: 300px;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        margin-bottom: 17px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+    #section02 .Instagram {
+        letter-spacing: 1px;
+        background-color: var(--cor003Grey);
+        color: white;
+        padding: 13px;
+        width: 300px;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        margin-bottom: 44px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+    #section02 .GitHub:hover {
+        background-color: var(--cor001Green);
+        color: var(--cor003Grey);
+    }
+
+
+    #section02 .FrontendMentor:hover {
+        background-color: var(--cor001Green);
+        color: var(--cor003Grey);
+    } 
+
+    
+    #section02 .Linkedin:hover {
+        background-color: var(--cor001Green);
+        color: var(--cor003Grey);
+    }
+
+    #section02 .Twitter:hover {
+        background-color: var(--cor001Green);
+        color: var(--cor003Grey);
+    } 
+
+    #section02 .Instagram:hover {
+        background-color: var(--cor001Green);
+        color: var(--cor003Grey);
+    } 
+
+
+    .attribution { font-size: 11px; text-align: center; color: white; padding-top: 50px;}
+    .attribution a { color: hsl(228, 45%, 44%);}

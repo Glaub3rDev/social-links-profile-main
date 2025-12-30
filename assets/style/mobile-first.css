@@ -1,0 +1,54 @@
+@media screen and (max-width: 844px) {
+
+    body {
+        padding-top: 7em;
+    }
+
+    header {
+        width: 300px;
+        height: 500px;
+        padding-bottom: 70px;
+            border: 1px solid hsla(75, 94%, 57%, 0.707);
+    }
+
+     .jessica > img {
+        border: 2px solid hsla(75, 100%, 57%, 0.764);
+     }
+
+     #section02 {
+        text-align: center;
+     }
+
+     #section02 .GitHub {
+        width: 260px;
+        height: 40px;
+        font-size: 0.8em;
+     }
+
+     #section02 .FrontendMentor {
+        width: 260px;
+        height: 40px;
+        font-size: 0.8em;
+     }
+     
+     #section02 .Linkedin {
+        width: 260px;
+        height: 40px;
+        font-size: 0.8em;
+     }
+
+     #section02 .Twitter {
+        width: 260px;
+        height: 40px;
+        font-size: 0.8em;
+     }
+
+     #section02 .Instagram {
+        width: 260px;
+        height: 40px;
+        font-size: 0.8em;
+     }
+
+     
+
+}
